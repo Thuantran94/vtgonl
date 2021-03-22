@@ -26,100 +26,30 @@ class Constants {
   static const background = 'assets/images/cover.png';
   static const backgroundapp = 'assets/images/background.png';
 
-  static const url_policy =
-      'https://firebasestorage.googleapis.com/v0/b/vtgonl.appspot.com/o/Documents%2Fpolicy.pdf?alt=media&token=8d747097-12f2-4680-a063-7ad3be2be59f';
-  static const url_term =
-      'https://firebasestorage.googleapis.com/v0/b/vtgonl.appspot.com/o/Documents%2Fterm.pdf?alt=media&token=d5294fb6-dfea-424e-a0e6-c00582747c83';
+  static const url_policy = ' Information was hidden for personal reason !';
+  static const url_term = ' Information was hidden for personal reason !';
 
-  static const url_home = 'https://vtgonl.firebaseapp.com';
-  static const url_homepage = 'https://vtgonline.tk';
-  static const email = 'hotrovtgonline@gmail.com';
+  static const url_home = ' Information was hidden for personal reason !';
+  static const url_homepage = ' Information was hidden for personal reason !';
+  static const email = ' Information was hidden for personal reason !';
 
-  static const url_facebook = 'https://m.me/vtgonl';
-  static const url_zalo = 'https://zalo.me/+33763133710';
+  static const url_facebook = ' Information was hidden for personal reason !';
+  static const url_zalo = ' Information was hidden for personal reason !';
 
-  static const root_user = 'USER';
-  static const root_loan = 'LOAN';
+  static const root_user = ' Information was hidden for personal reason !';
+  static const root_loan = ' Information was hidden for personal reason !';
 
-  static const itemsGender = [
-    'Nam',
-    'Nữ',
-  ];
-  static const itemsStatus = [
-    'Độc thân',
-    'Đã kết hôn',
-    'Đã ly hôn',
-    'Đã ly thân',
-  ];
-  static const itemsEdu = [
-    '12/12',
-    'Cao đẳng',
-    'Đại học',
-  ];
-  static const itemsRela = [
-    'Cha, mẹ',
-    'Anh, chị, em',
-    'Vợ, chồng',
-  ];
-  static const itemsSotien = [
-    '1 000 000đ',
-    '2 000 000đ',
-    '3 000 000đ',
-    '4 000 000đ',
-    '5 000 000đ',
-    '6 000 000đ',
-    '7 000 000đ',
-    '8 000 000đ',
-    '9 000 000đ',
-    '10 000 000đ'
-  ];
-  static const itemsThoihan = [
-    '1 tháng',
-    '2 tháng',
-    '3 tháng',
-    '4 tháng',
-    '5 tháng',
-    '6 tháng'
-  ];
+  static const itemsGender = [' Information was hidden for personal reason !'];
+  static const itemsStatus = [' Information was hidden for personal reason !'];
+  static const itemsEdu = [' Information was hidden for personal reason !'];
+  static const itemsRela = [' Information was hidden for personal reason !'];
+  static const itemsSotien = [' Information was hidden for personal reason !'];
+  static const itemsThoihan = [' Information was hidden for personal reason !'];
 
-  static const itemsJob = [
-    'Kinh doanh tự do',
-    'Công nhân',
-    'NV văn phòng',
-    'NV nhà nước',
-    'Học sinh/Sinh Viên',
-    'Nội trợ',
-    'Về hưu'
-  ];
-  static const itemsSalary = [
-    '1 - 3tr /tháng',
-    '3 - 5tr /tháng',
-    '5 - 8tr /tháng',
-    '8 - 12tr /tháng',
-    'Trên 12tr /tháng'
-  ];
+  static const itemsJob = [' Information was hidden for personal reason !'];
+  static const itemsSalary = [' Information was hidden for personal reason !'];
   static const itemsBankname = [
-    'ACB',
-    'ABBank',
-    'Agribank',
-    'BacABank',
-    'BAOVIET Bank',
-    'BIDV',
-    'Đông Á - DAB',
-    'HDBank',
-    'HSBC',
-    'NamABank',
-    'Sacombank',
-    'SAIGONBANK',
-    'SCB',
-    'SeABank',
-    'Techcombank',
-    'TPBank',
-    'Vietcombank',
-    'VietinBank',
-    'VIB',
-    'Viet Capital Bank',
-    'VPBank'
+    ' Information was hidden for personal reason !'
   ];
 
   static Future<String> readFile(String filename) async {

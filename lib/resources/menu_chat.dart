@@ -21,43 +21,43 @@ class _ChatState extends State<Chat> {
   ];
   final List<Message> messages = [
     Message(1,
-        "Nếu bạn vẫn muốn đăng ký vay thì phải thanh toán phí bảo hiểm trước giải ngân."),
+        "' Information was hidden for personal reason !'"),
     Message(1,
-        "Rất tiết, VTG Online chỉ hỗ trợ cho những khách hàng có đủ hồ sơ và có chứng minh thu nhập"),
+        "' Information was hidden for personal reason !'"),
     Message(0,
-        "Tôi không đủ hồ sơ, hoặc không thể chứng minh thu nhập thì vay được không?"),
+        "' Information was hidden for personal reason !'"),
     Message(1,
-        "Ví dụ bạn vay 5 000 000 trong 1 tháng thì phí dịch vụ là 500 000đ sau khi giải ngân bạn sẽ nhận được 4 500 000đ."),
-    Message(1, "Phí dịch vụ sẽ được trừ trực tiếp vào số tiền giải ngân."),
+        "' Information was hidden for personal reason !'"),
+    Message(1, "' Information was hidden for personal reason !'"),
     Message(1,
-        "Bạn không cần phải đóng bất kỳ một khoản phí nào trước khi nhận được tiền giải ngân."),
+        "' Information was hidden for personal reason !'"),
     Message(0, "Tôi có cần đóng phí gì không?"),
     Message(1,
-        "Ví dụ bạn vay 5 000 000đ thì tháng sau tổng cộng tất cả tiền bạn phải trả là 5 400 000đ."),
+        "' Information was hidden for personal reason !'"),
     Message(
-        1, "Lãi suất VTG Online quy định là 5% một tháng và 3% phí bảo hiểm."),
+        1, "' Information was hidden for personal reason !'"),
     Message(1,
-        "Vì vậy bạn cần có số tài khoản ngân hàng chính chủ trước khi đăng ký vay"),
+        "' Information was hidden for personal reason !'"),
     Message(1,
-        "VTG Online hỗ trợ cho khách hàng vay trả góp theo tháng, giải ngân và thanh toán tiền bằng hình thức chuyển khoản ngân hàng"),
-    Message(0, "Lãi suất bao nhiêu?"),
-    Message(0, "Tôi muốn hỏi hình thức vay như thế nào?"),
+        "' Information was hidden for personal reason !'"),
+    Message(0, "' Information was hidden for personal reason !'"),
+    Message(0, "' Information was hidden for personal reason !'"),
     Message(1,
-        "Chào bạn, VTG Online có hỗ trợ nợ xấu nên nếu bạn có nợ xấu vẫn vay được."),
-    Message(0, "Tôi bị nợ xấu có vay được không?"),
+        "' Information was hidden for personal reason !'"),
+    Message(0, "' Information was hidden for personal reason !'"),
     Message(1,
-        "Bạn có thể chứng minh thu nhập bằng cách cung cấp hợp đồng lao động và sao kê tài khoản ngân hàng 3 tháng gần nhất."),
+        "' Information was hidden for personal reason !'"),
     Message(1,
-        "Ngoài ra VTG Online bắt buộc bạn phải có số điện thoại chính chủ và có chứng minh thu nhập."),
+        "' Information was hidden for personal reason !'"),
     Message(1,
-        "Bạn cần chuẩn bị các giấy tờ tùy thân như chứng minh nhân dân và sổ hộ khẩu, các hóa đơn điện nước, internet nếu có"),
+        "' Information was hidden for personal reason !'"),
     Message(
         1,
-        'Chào bạn, để đăng ký vay bạn có thể làm theo các bước hướng dẫn trong ứng dụng hoặc truy cập tại ' +
+        ' Information was hidden for personal reason !' +
             Constants.url_homepage +
-            ' để điền hồ sơ.'),
-    Message(0, "Cần những giấy tờ gì?"),
-    Message(0, "Tôi muốn vay thì phải làm thế nào?"),
+            ' Information was hidden for personal reason !'),
+    Message(0, ' Information was hidden for personal reason !'),
+    Message(0, ' Information was hidden for personal reason !'),
   ];
   final rand = Random();
   var _scaffoldKey = new GlobalKey<ScaffoldState>();
@@ -154,7 +154,7 @@ class _ChatState extends State<Chat> {
       messages.insert(
           0,
           Message(1,
-              'Bạn vui lòng nhấn vào nút gọi phía trên hoặc liên hệ qua địa chỉ email bên dưới để được tư vấn hỗ trợ sớm nhất nhé!'));
+              ' Information was hidden for personal reason !'));
       messages.insert(0, Message(1, 'Email: ' + Constants.email));
     });
   }

@@ -35,7 +35,7 @@ class _PaymentsState extends State<Payments> {
       key: _scaffoldKey,
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("Thanh Toán Khoản Vay"),
+        title: Text(' Information was hidden for personal reason !'),
         backgroundColor: Constants.colorPrimary,
       ),
       body: Container(
@@ -96,7 +96,7 @@ class _PaymentsState extends State<Payments> {
                             Text(
                               results == ''
                                   ? results
-                                  : "Họ và tên: \nSố tiền thanh toán: \nThanh toán trước ngày:\nSố tháng đã trả:\nSố ngày quá hạn:\nLời nhắn:",
+                                  : ' Information was hidden for personal reason !',
                               style: TextStyle(fontSize: 12, height: 2),
                             ),
                           ],
@@ -135,7 +135,7 @@ class _PaymentsState extends State<Payments> {
                             Text(
                               results == ''
                                   ? results
-                                  : "Thanh toán bằng cách chuyển tiền vào tài khoản Ngân hàng sau: \nSố Tài khoản \nTên Tài khoản \nTên Ngân hàng \nChi nhánh \nNội dung ",
+                                  : ' Information was hidden for personal reason !',
                               style: TextStyle(fontSize: 12, height: 2),
                             )
                           ],
@@ -149,7 +149,7 @@ class _PaymentsState extends State<Payments> {
                             Text(
                               results == ''
                                   ? results
-                                  : "\n19035740331018 \nTRAN HOANG SON\nTechcombank\nTp. Hồ Chí Minh\nThanh toán Tên KH + SHD.",
+                                  : ' Information was hidden for personal reason !',
                               style: TextStyle(fontSize: 12, height: 2),
                             )
                           ],
@@ -198,7 +198,7 @@ class _PaymentsState extends State<Payments> {
               icon: Icons.error,
               iconColor: Colors.red,
               title: 'Lỗi !',
-              descriptions: 'Hợp đồng giao dịch không tồn tại',
+              descriptions: ' Information was hidden for personal reason !',
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -229,7 +229,7 @@ class _PaymentsState extends State<Payments> {
                 icon: Icons.error,
                 iconColor: Colors.red,
                 title: 'Lỗi !',
-                descriptions: 'Hợp đồng giao dịch không tồn tại',
+                descriptions: ' Information was hidden for personal reason !',
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
@@ -281,7 +281,7 @@ class _PaymentsState extends State<Payments> {
         note = 'Không';
       }
       if (ngaytratieptheo == '' || ngaytratieptheo == null) {
-        ngaytratieptheo = "Đang chờ phê duyệt hồ sơ...";
+        ngaytratieptheo = ' Information was hidden for personal reason !';
       }
 
       var sum =

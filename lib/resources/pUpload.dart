@@ -326,7 +326,7 @@ class _HomePageUploadState extends State<HomePageUpload> {
                               });
                             },
                           ),
-                    title: Text("Sao kê tháng " + month1.month.toString(),
+                    title: Text(' Information was hidden for personal reason !' + month1.month.toString(),
                         style: TextStyle(fontWeight: FontWeight.bold)),
                   ),
                   _buildDivider(),
@@ -376,7 +376,7 @@ class _HomePageUploadState extends State<HomePageUpload> {
                               });
                             },
                           ),
-                    title: Text("Sao kê tháng " + month2.month.toString(),
+                    title: Text(' Information was hidden for personal reason !' + month2.month.toString(),
                         style: TextStyle(fontWeight: FontWeight.bold)),
                   ),
                   _buildDivider(),
@@ -426,7 +426,7 @@ class _HomePageUploadState extends State<HomePageUpload> {
                               });
                             },
                           ),
-                    title: Text("Sao kê tháng " + month3.month.toString(),
+                    title: Text(' Information was hidden for personal reason !'+ month3.month.toString(),
                         style: TextStyle(fontWeight: FontWeight.bold)),
                   ),
                 ],
@@ -473,7 +473,7 @@ class _HomePageUploadState extends State<HomePageUpload> {
               icon: Icons.error,
               iconColor: Colors.red,
               title: 'Lỗi !',
-              descriptions: 'Vui lòng tải lên tất cả các hồ sơ được yêu cầu.',
+              descriptions: ' Information was hidden for personal reason !',
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -498,7 +498,7 @@ class _HomePageUploadState extends State<HomePageUpload> {
           return CustomDialogHint(
             name: name,
             descriptions:
-                'Bạn phải cung cấp ít nhất 5 giấy tờ có trong danh sách yêu cầu. Hình ảnh phải rõ nét và phải được chụp mới tại thời điểm đăng ký vay. Các giấy tờ chứng minh thu nhập như hợp đồng làm việc và Sao kê ngân hàng là bắt buộc. Mọi giấy tờ không hợp lệ hoặc đã qua chỉnh sửa sẽ bị từ chối.',
+               ' Information was hidden for personal reason !',
             onPressed: () {
               Navigator.of(context).pop();
             },

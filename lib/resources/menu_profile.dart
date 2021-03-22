@@ -165,7 +165,7 @@ class _ProfileState extends State<Profile> {
                                   color: Colors.red,
                                 ),
                           title: Text(
-                            "Thông tin cá nhân",
+                            ' Information was hidden for personal reason !',
                             style: Theme.of(context).textTheme.bodyText1,
                           ),
                         ),
@@ -232,7 +232,7 @@ class _ProfileState extends State<Profile> {
                                   color: Colors.red,
                                 ),
                           title: Text(
-                            "Thông tin người thân",
+                            ' Information was hidden for personal reason !',
                             style: Theme.of(context).textTheme.bodyText1,
                           ),
                         ),
@@ -336,21 +336,21 @@ class _ProfileState extends State<Profile> {
         context: context,
         builder: (context) {
           return AlertDialog(
-            title: Text('Thêm người thân'),
+            title: Text(' Information was hidden for personal reason !'),
             content: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 TextField(
-                  decoration: InputDecoration(hintText: 'Họ và tên'),
+                  decoration: InputDecoration(hintText: ' Information was hidden for personal reason !'),
                   maxLines: 1,
                 ),
                 TextField(
-                  decoration: InputDecoration(hintText: 'Số điện thoại'),
+                  decoration: InputDecoration(hintText: ' Information was hidden for personal reason !'),
                   maxLines: 1,
                 ),
                 TextField(
-                  decoration: InputDecoration(hintText: 'Quan hệ'),
+                  decoration: InputDecoration(hintText: ' Information was hidden for personal reason !'),
                   maxLines: 1,
                 )
               ],
@@ -372,7 +372,7 @@ class _ProfileState extends State<Profile> {
                           icon: Icons.error,
                           iconColor: Colors.blue,
                           title: 'Thông báo',
-                          descriptions: 'Hiện tại không thể thêm người thân.',
+                          descriptions: ' Information was hidden for personal reason !',
                           onPressed: () {
                             Navigator.of(context).pop();
                           },

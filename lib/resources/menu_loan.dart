@@ -143,7 +143,7 @@ class _LoansState extends State<Loans> {
           ListTile(
             dense: true,
             title: Text(
-              "Danh sách hợp đồng : ",
+              ' Information was hidden for personal reason !',
               style: Theme.of(context).textTheme.bodyText1,
             ),
           ),

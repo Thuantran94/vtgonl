@@ -62,7 +62,7 @@ class _HomePageContractState extends State<HomePageContract> {
     return Scaffold(
       key: _scaffoldKey,
       appBar: AppBar(
-        title: Text("Thông Tin Hợp Đồng"),
+        title: Text(' Information was hidden for personal reason !'),
         backgroundColor: Constants.colorPrimary,
         elevation: 0.0,
       ),
@@ -76,7 +76,7 @@ class _HomePageContractState extends State<HomePageContract> {
             Container(
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "BẢN TÓM TẮT HỢP ĐỒNG CHO VAY",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -90,20 +90,14 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Hôm nay, ngày " +
-                    day +
-                    "/" +
-                    month +
-                    "/" +
-                    year +
-                    ". Chúng tôi gồm:",
+                ' Information was hidden for personal reason !',
               ),
             ),
             Container(
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "1. BÊN CHO VAY (BÊN A)",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -116,7 +110,7 @@ class _HomePageContractState extends State<HomePageContract> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Tên tổ chức:",
+                          ' Information was hidden for personal reason !',
                         ),
                       ],
                     ),
@@ -126,7 +120,7 @@ class _HomePageContractState extends State<HomePageContract> {
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: <Widget>[
                         Text(
-                          "Quỹ đầu tư cá nhân VTG Online",
+                          ' Information was hidden for personal reason !',
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                       ],
@@ -139,7 +133,7 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "2. BÊN VAY (BÊN B)",
+                "' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -195,14 +189,14 @@ class _HomePageContractState extends State<HomePageContract> {
             Container(
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                  "Hai bên cùng thống nhất ký Hợp đồng Cho vay với các điều khoản, nội dung như sau:",
+                 ' Information was hidden for personal reason !',
                   textAlign: TextAlign.justify),
             ),
             Container(
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Điều 01: Số tiền cho vay",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -215,7 +209,7 @@ class _HomePageContractState extends State<HomePageContract> {
                     color: Constants.colorBack,
                   ),
                   text:
-                      'Bên A đồng ý cho Bên B vay và Bên B đồng ý vay của Bên A số tiền: ',
+                      ' Information was hidden for personal reason !',
                   children: <TextSpan>[
                     TextSpan(
                       text: sotien,
@@ -232,7 +226,7 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Điều 02: Mục đích vay",
+               ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -243,7 +237,7 @@ class _HomePageContractState extends State<HomePageContract> {
                 text: TextSpan(
                   style: TextStyle(color: Constants.colorBack),
                   text:
-                      'Mục đích vay số tiền nêu trên là để Bên B sử dụng vào mục đích ',
+                      ' Information was hidden for personal reason !',
                   children: <TextSpan>[
                     TextSpan(
                       text: widget.loan.mucdich,
@@ -260,14 +254,14 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Điều 03: Phương thức giải ngân",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
             Container(
               margin: EdgeInsets.only(top: 6),
               child: Text(
-                  "Bên A thực hiện giải ngân khoản vay vào số tài khoản ngân hàng do Bên B đã cung cấp bên dưới:",
+                  ' Information was hidden for personal reason !',
                   style: TextStyle(),
                   textAlign: TextAlign.justify),
             ),
@@ -281,7 +275,7 @@ class _HomePageContractState extends State<HomePageContract> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Số Tài khoản: \nTên Tài khoản:  \nTên Ngân hàng: \nChi nhánh:",
+                          ' Information was hidden for personal reason !',
                           style: TextStyle(),
                         ),
                       ],
@@ -311,7 +305,7 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Điều 04: Kỳ hạn góp và phương thức cho vay",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -325,7 +319,7 @@ class _HomePageContractState extends State<HomePageContract> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          "Kỳ hạn trả góp: \nSố tiền trả (mỗi tháng): \nNgày trả (mỗi tháng):",
+                          ' Information was hidden for personal reason !',
                           style: TextStyle(),
                         ),
                       ],
@@ -353,7 +347,7 @@ class _HomePageContractState extends State<HomePageContract> {
             Container(
               margin: EdgeInsets.only(top: 6),
               child: Text(
-                "Số tiền trả mỗi tháng đã bao gồm một phần (hoặc toàn bộ) tiền gốc, 3.0% phí bảo hiểm và 5.0% lãi suất.",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(),
                 textAlign: TextAlign.justify,
               ),
@@ -362,7 +356,7 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Điều 05: Lãi suất cho vay và phương thức trả nợ",
+               ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -373,7 +367,7 @@ class _HomePageContractState extends State<HomePageContract> {
                 text: TextSpan(
                   style: TextStyle(color: Constants.colorBack),
                   text:
-                      "Lãi suất được hai bên thỏa thuận là 5.0% /tháng. Lãi suất trả trễ  là ",
+                    ' Information was hidden for personal reason !',
                   children: <TextSpan>[
                     TextSpan(
                       text: phitratre(sotien) + 'đ /tuần',
@@ -381,7 +375,7 @@ class _HomePageContractState extends State<HomePageContract> {
                     ),
                     TextSpan(
                       text:
-                          ', tương đương 150.0% lãi suất vay (+10.0% phí phạt kể từ tuần thứ 2).',
+                         ' Information was hidden for personal reason !',
                     ),
                   ],
                 ),
@@ -391,7 +385,7 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Điều 06: Các điều khoản khác ",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -399,7 +393,7 @@ class _HomePageContractState extends State<HomePageContract> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 6),
               child: Text(
-                "Bản chi tiết hợp đồng cho vay sẽ được gửi qua email sau khi hoàn tất quá trình đăng ký.",
+                ' Information was hidden for personal reason !',
                 textAlign: TextAlign.justify,
               ),
             ),

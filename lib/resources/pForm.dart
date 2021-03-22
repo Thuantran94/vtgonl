@@ -82,7 +82,7 @@ class _HomePage1State extends State<HomePage1> {
               width: double.infinity,
               margin: EdgeInsets.only(top: 10),
               child: Text(
-                "Thông tin việc làm",
+                ' Information was hidden for personal reason !',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
@@ -90,7 +90,7 @@ class _HomePage1State extends State<HomePage1> {
               margin: EdgeInsets.only(top: 16),
               child: DropdownButtonFormField<String>(
                 decoration:
-                    CommonStyle.textFieldStyle('Nghề nghiệp hiện tại', ''),
+                    CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
                 value: _userjob.isNotEmpty ? _userjob : null,
                 items: Constants.itemsJob
                     .map((item) =>
@@ -105,7 +105,7 @@ class _HomePage1State extends State<HomePage1> {
               margin: EdgeInsets.only(top: 16),
               child: DropdownButtonFormField<String>(
                 decoration:
-                    CommonStyle.textFieldStyle('Lương/thu nhập chính', ''),
+                    CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
                 value: _usersalary.isNotEmpty ? _usersalary : null,
                 items: Constants.itemsSalary
                     .map((item) => DropdownMenuItem(
@@ -124,7 +124,7 @@ class _HomePage1State extends State<HomePage1> {
                 controller: _userCompanyNameController,
                 keyboardType: TextInputType.text,
                 maxLength: 50,
-                decoration: CommonStyle.textFieldStyle('Tên công ty', ''),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
               ),
             ),
             Container(
@@ -133,7 +133,7 @@ class _HomePage1State extends State<HomePage1> {
                 controller: _userCompanyAddressController,
                 keyboardType: TextInputType.text,
                 maxLength: 50,
-                decoration: CommonStyle.textFieldStyle('Địa chỉ công ty', ''),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
               ),
             ),
             Container(
@@ -143,7 +143,7 @@ class _HomePage1State extends State<HomePage1> {
                 keyboardType: TextInputType.text,
                 maxLength: 10,
                 decoration:
-                    CommonStyle.textFieldStyle('Số điện thoại công ty', ''),
+                    CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
               ),
             ),
             _buildDivider(),
@@ -157,7 +157,7 @@ class _HomePage1State extends State<HomePage1> {
             Container(
               margin: EdgeInsets.only(top: 16),
               child: DropdownButtonFormField<String>(
-                decoration: CommonStyle.textFieldStyle('Tên ngân hàng', ''),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
                 value: _bankname.isNotEmpty ? _bankname : null,
                 items: Constants.itemsBankname
                     .map((item) => DropdownMenuItem(
@@ -176,7 +176,7 @@ class _HomePage1State extends State<HomePage1> {
                 controller: _bankUserNumberController,
                 keyboardType: TextInputType.text,
                 maxLength: 20,
-                decoration: CommonStyle.textFieldStyle('Số tài khoản', ''),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
               ),
             ),
             Container(
@@ -185,7 +185,7 @@ class _HomePage1State extends State<HomePage1> {
                 controller: _bankUserNameController,
                 keyboardType: TextInputType.text,
                 maxLength: 30,
-                decoration: CommonStyle.textFieldStyle('Tên tài khoản', ''),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
               ),
             ),
             Container(
@@ -194,7 +194,7 @@ class _HomePage1State extends State<HomePage1> {
                 controller: _bankAddressController,
                 keyboardType: TextInputType.text,
                 maxLength: 50,
-                decoration: CommonStyle.textFieldStyle('Chi nhánh', ''),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !', ''),
               ),
             ),
             Container(
@@ -212,7 +212,7 @@ class _HomePage1State extends State<HomePage1> {
                 keyboardType: TextInputType.text,
                 maxLength: 50,
                 decoration: CommonStyle.textFieldStyle(
-                    'Mục đích vay', 'Bạn cần vay vốn để làm gì?'),
+                    ' Information was hidden for personal reason !'),
               ),
             ),
             Container(
@@ -221,8 +221,7 @@ class _HomePage1State extends State<HomePage1> {
                 controller: _kehoachtraController,
                 keyboardType: TextInputType.text,
                 maxLength: 50,
-                decoration: CommonStyle.textFieldStyle(
-                    'Kế hoạch chi trả', 'Bạn sẽ trả khoản vay bằng cách nào?'),
+                decoration: CommonStyle.textFieldStyle(' Information was hidden for personal reason !'),
               ),
             ),
             Container(
@@ -306,7 +305,7 @@ class _HomePage1State extends State<HomePage1> {
           return CustomDialogHint(
             name: name,
             descriptions:
-                'Để đảm bảo quá trình xét duyệt hồ sơ và giải ngân khoản vay mà bạn đã yêu cầu diễn ra nhanh chóng, vui lòng cung cấp thông tin theo mẫu một cách đầy đủ và chính xác. Tất cả các thông tin cá nhân do bạn cung cấp sẽ được giữ bí mật tuyệt đối và được lưu trữ tự động trên cơ sở dữ liệu của chúng tôi. Bất kì thông tin khai báo nào không đúng sự thật sẽ bị khóa tài khoản vĩnh viễn!  ',
+                ' Information was hidden for personal reason !',
             onPressed: () {
               Navigator.of(context).pop();
             },

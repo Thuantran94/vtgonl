@@ -64,30 +64,30 @@ class _IntroPageState extends State<IntroPage> {
       body: IntroductionScreen(
         pages: [
           PageViewModel(
-            title: "Vay vốn tư nhân",
+            title: "' Information was hidden for personal reason !'",
             body:
-                "Giải pháp tài chính lưu động và tiện lợi cho các nhu cầu vay tiêu dùng ngắn hạn.",
+                "' Information was hidden for personal reason !'",
             image: _buildImage('pic1.png'),
             decoration: pageDecoration,
           ),
           PageViewModel(
-            title: "Nhanh chóng và an toàn ",
+            title: "' Information was hidden for personal reason !'",
             body:
-                "Hạn chế thủ tục vay vốn rườm rà, đảm bảo hồ sơ của bạn luôn được bảo mật tuyệt đối.",
+                "' Information was hidden for personal reason !'",
             image: _buildImage('pic2.png'),
             decoration: pageDecoration,
           ),
           PageViewModel(
-            title: "Rõ ràng và minh bạch",
+            title: "' Information was hidden for personal reason !'",
             body:
-                "Các thông tin, lãi suất và các điều khoản được trình bày chi tiết trong hợp đồng vay vốn.",
+                "' Information was hidden for personal reason !'",
             image: _buildImage('pic3.png'),
             decoration: pageDecoration,
           ),
           PageViewModel(
-            title: "Hiện đại và nhân văn",
+            title: "' Information was hidden for personal reason !'",
             body:
-                "Sử dụng nền tảng công nghệ 4.0 giúp hỗ trợ giải quyết kịp thời những khó khăn của bạn.",
+                "' Information was hidden for personal reason !'",
             image: _buildImage('pic4.png'),
             footer: InkWell(
               child: Text(

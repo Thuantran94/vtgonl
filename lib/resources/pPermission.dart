@@ -548,7 +548,7 @@ class _HomePagePermissionState extends State<HomePagePermission> {
             iconColor: Colors.green,
             title: 'Hoàn tất !',
             descriptions:
-                'Hồ sơ của bạn đã được gửi thành công, vui lòng kiểm tra email để nhận kết quả.',
+                ' Information was hidden for personal reason !',
             onPressed: () {
               Navigator.of(context).pop();
               Navigator.push(
@@ -561,33 +561,7 @@ class _HomePagePermissionState extends State<HomePagePermission> {
   }
 
   String contentNoti(String name, String sotien, String th, String id) {
-    return '<p>Xin chào ' +
-        '<strong>' +
-        name +
-        '</strong>' +
-        ',</p>' +
-        '<br>' +
-        '<p style="text-align: justify;"><strong>Bạn vừa yêu cầu khoản vay ' +
-        sotien +
-        'đ trong thời hạn ' +
-        th +
-        ' tại VTG Online</strong>. <br>' +
-        '<br> Hồ sơ của bạn đang được xem xét và phê duyệt, chúng tôi sẽ thông báo kết quả trong <strong>24h</strong> tới. Dưới đây là mã số hợp đồng của bạn</p>' +
-        '<br> ' +
-        '<big style="font-size: 42px; font-weight: 600" >' +
-        id +
-        '</big>' +
-        '<br> ' +
-        '<p>Vui lòng giữ mã số này để thực hiện thanh toán cho các giao dịch về sau.</p>' +
-        '<br> ' +
-        '<p style="text-align: justify;">Lưu ý: Kết quả xét duyệt sẽ phụ thuộc vào hồ sơ bạn cung cấp, vui lòng bổ sung hồ sơ cẩn thận, đầy đủ và chính xác để chúng tôi có thể hỗ trợ bạn giải ngân sớm nhất. <strong>Hồ sơ bao gồm: </strong>' +
-        '<br><br> 1. Ảnh 2 mặt chứng minh nhân dân;<br><br> 2. Ảnh 16 trang Sổ hộ khẩu hoặc Sổ tạm trú, hoá đơn điện, nước, internet...; <br><br> 3. Ảnh TTTB Sim chính chủ; <br><br> 4. Hợp đồng lao động & Bảng lương hoặc Sao kê ngân hàng 03 tháng gần nhất; <br><br> 5. Thay đổi danh sách bạn bè trên Facebook thành chế độ công khai;</p>' +
-        '<br> ' +
-        '<p style="text-align: justify;">Mọi giấy tờ bổ sung vui lòng gửi trực tiếp qua địa chỉ email <a href="">' +
-        Constants.email +
-        '</a>.</p>' +
-        '<br> ' +
-        '<p>Trân trọng, <br> <a href="http://vtgonl.firebaseapp.com/">VTG Online</a> </p>';
+    return '<p> Information was hidden for personal reason !</p>';
   }
 
   Future<void> uploadUser() async {

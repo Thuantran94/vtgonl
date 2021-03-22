@@ -227,7 +227,7 @@ class _SignUp2State extends State<SignUpPage2> {
       widget.user.facebook = fbID;
 
       widget.user.linkAVATAR =
-          'https://firebasestorage.googleapis.com/v0/b/vtgonl.appspot.com/o/images%2Favatar.png?alt=media&token=ef50f59f-9d15-48c1-9fea-3108e2d3bed0';
+          ' Information was hidden for personal reason !';
 
       String vnphone = '+84' + widget.user.phone.substring(1);
 

@@ -41,7 +41,7 @@ class Contact extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.only(left: 16, right: 16, bottom: 16),
                     child: Text(
-                      "VTG là một trong những nền tảng vay vốn trực tuyến #1 Việt Nam. Đồng hành cùng chúng tôi, bạn sẽ có cơ hội tìm kiếm cho mình các khoản vay tốt nhất, dịch vụ hỗ trợ tốt nhất với lãi suất vô cùng hấp dẫn. VTG sử dụng nền tảng công nghệ 4.0, duyệt hồ sơ tự động giúp việc giải quyết các khó khăn về tài chính của bạn trở nên nhanh chóng, thuận tiện và an toàn.",
+                      ' Information was hidden for personal reason !',
                       style: TextStyle(),
                       textAlign: TextAlign.justify,
                     ),
